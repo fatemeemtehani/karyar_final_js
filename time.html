@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <title>time</title>
+
+    <link rel="stylesheet" href="/css/time.css" />
+  </head>
+  <body>
+    <!-- هدر -->
+    <header>
+      <ul class="menu">
+        <a href="/github.html" style="text-decoration: none"><li>Home</li></a>
+        <a href="/time.html" style="text-decoration: none"><li>Time</li></a>
+        <a href="/weather.html" style="text-decoration: none">
+          <li>Weather</li></a
+        >
+      </ul>
+    </header>
+
+    <main>
+      <div class="clock-container">
+        <!-- ساعت آنالوگ -->
+        <div class="analog-clock">
+          <div class="marker" style="transform: rotate(0deg); --angle: 0deg">
+            <div class="number">12</div>
+            <div class="tick"></div>
+          </div>
+          <div class="marker" style="transform: rotate(30deg); --angle: 30deg">
+            <div class="number">1</div>
+            <div class="tick"></div>
+          </div>
+          <div class="marker" style="transform: rotate(60deg); --angle: 60deg">
+            <div class="number">2</div>
+            <div class="tick"></div>
+          </div>
+          <div class="marker" style="transform: rotate(90deg); --angle: 90deg">
+            <div class="number">3</div>
+            <div class="tick"></div>
+          </div>
+          <div
+            class="marker"
+            style="transform: rotate(120deg); --angle: 120deg"
+          >
+            <div class="number">4</div>
+            <div class="tick"></div>
+          </div>
+          <div
+            class="marker"
+            style="transform: rotate(150deg); --angle: 150deg"
+          >
+            <div class="number">5</div>
+            <div class="tick"></div>
+          </div>
+          <div
+            class="marker"
+            style="transform: rotate(180deg); --angle: 180deg"
+          >
+            <div class="number">6</div>
+            <div class="tick"></div>
+          </div>
+          <div
+            class="marker"
+            style="transform: rotate(210deg); --angle: 210deg"
+          >
+            <div class="number">7</div>
+            <div class="tick"></div>
+          </div>
+          <div
+            class="marker"
+            style="transform: rotate(240deg); --angle: 240deg"
+          >
+            <div class="number">8</div>
+            <div class="tick"></div>
+          </div>
+          <div
+            class="marker"
+            style="transform: rotate(270deg); --angle: 270deg"
+          >
+            <div class="number">9</div>
+            <div class="tick"></div>
+          </div>
+          <div
+            class="marker"
+            style="transform: rotate(300deg); --angle: 300deg"
+          >
+            <div class="number">10</div>
+            <div class="tick"></div>
+          </div>
+          <div
+            class="marker"
+            style="transform: rotate(330deg); --angle: 330deg"
+          >
+            <div class="number">11</div>
+            <div class="tick"></div>
+          </div>
+
+          <!-- عقربه‌های ساعت -->
+          <div class="hand hour" id="hour"></div>
+
+          <div class="hand minute" id="minute"></div>
+
+          <div class="hand second" id="second"></div>
+
+          <!-- دایره وسط ساعت -->
+          <div class="center-dot"></div>
+
+          <!-- نوشته‌ی زیر ساعت -->
+          <div class="carpe-diem">Carpe Diem</div>
+        </div>
+
+        <!-- ساعت دیجیتال  -->
+        <div class="digital-clock" id="digital-clock"></div>
+      </div>
+    </main>
+
+    <script src="/js/time.js"></script>
+  </body>
+</html>
