@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub User</title>
+    <link rel="stylesheet" href="/css/user.css" />
+  </head>
+  <body>
+    <header>
+      <ul class="menu">
+        <a href="/github.html" style="text-decoration: none"><li>Home</li></a>
+        <a href="/time.html" style="text-decoration: none"><li>Time</li></a>
+        <a href="/weather.html" style="text-decoration: none">
+          <li>Weather</li></a
+        >
+      </ul>
+    </header>
+    <div class="container">
+      <button onclick="history.back()" class="back-btn">Back To Search</button>
+      <span id="hireable-status" class="hireable-status"></span>
+
+      <div id="user-details"></div>
+      <div id="user-stats"></div>
+      <div id="repo-list"></div>
+    </div>
+
+    <script src="/js/user.js"></script>
+  </body>
+</html>
