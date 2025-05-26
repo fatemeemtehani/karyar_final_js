@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* محاسبه‌ی دقیق عرض و ارتفاع شامل پدینگ و بردر */
+}
+
+/* تنظیمات بخش اصلی صفحه */
+main {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #aae2ee, #1a2196);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+/* هدر */
+.menu {
+  width: 100%;
+  display: flex;
+  background-color: #df4857;
+  height: 70px;
+  justify-content: end;
+  align-items: center;
+}
+
+.menu a {
+  list-style: none;
+  margin-right: 25px;
+  color: #fff;
+  font-size: 20px;
+}
+/* main */
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+/* input  */
+.form-group {
+  width: 70%;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  font-size: 16px;
+}
+
+button {
+  width: 8%;
+  padding: 10px 15px;
+  border: none;
+  background-color: #fff;
+  color: #1b219c;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*  نمایش اطلاعات آب‌وهوا */
+.card {
+  background-color: rgba(255, 255, 255, 0.2); /* نیمه شفاف */
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+/* لاس مخفی کردن المان */
+.hidden {
+  display: none;
+}
