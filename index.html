@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <ul class="menu">
+        <a><li>Home</li></a>
+        <a href="/time.html" style="text-decoration: none"><li>Time</li></a>
+        <a href="/weather.html" style="text-decoration: none" س
+          ><li>Weather</li></a
+        >
+      </ul>
+    </header>
+    <main>
+      <div class="spacer"></div>
+
+      <!-- پیام هشدار -->
+      <div id="alert" class="alert" style="display: none">
+        <i class="fas fa-exclamation-circle"></i>
+        <span id="alert-text"></span>
+      </div>
+
+      <!-- فرم جستجو -->
+      <input class="search-box" type="text" placeholder="Search Users..." />
+      <button class="submit" id="submit-btn">Submit</button>
+      <button class="submit" id="clear-btn" style="display: none">Clear</button>
+
+      <!-- لودر -->
+      <div id="loader" class="loader" style="display: none"></div>
+    </main>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
